@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="cheat\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="base64\base64.cpp" />
+    <ClCompile Include="cheat\Gamepad.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{d9cee197-056b-42cf-90d9-e2e20d8ad45d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\KeyAuth.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="cheat\comm.hpp" />
+    <ClInclude Include="cheat\utils.hpp" />
+    <ClInclude Include="cheat\ImGui\imconfig.h" />
+    <ClInclude Include="cheat\ImGui\imgui.h" />
+    <ClInclude Include="cheat\ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="cheat\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="cheat\ImGui\imgui_internal.h" />
+    <ClInclude Include="cheat\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="cheat\ImGui\imstb_textedit.h" />
+    <ClInclude Include="cheat\ImGui\imstb_truetype.h" />
+    <ClInclude Include="base64\base64.h" />
+    <ClInclude Include="cheat\Gamepad.h" />
+    <ClInclude Include="anti\anti_dump.hpp" />
+    <ClInclude Include="anti\anti_vm.hpp" />
+    <ClInclude Include="anti\bad_process.hpp" />
+    <ClInclude Include="anti\debugger.hpp" />
+    <ClInclude Include="anti\ida.hpp" />
+    <ClInclude Include="anti\lazy_importer.hpp" />
+    <ClInclude Include="anti\xor_string.hpp" />
+  </ItemGroup>
+</Project>
